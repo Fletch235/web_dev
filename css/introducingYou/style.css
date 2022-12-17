@@ -1,0 +1,106 @@
+body{
+background:#445760;
+text-align: center;
+font-family: times, serif;
+
+}
+h1{
+font-family: 'Bebas Neue', cursive;
+font-size: 50pt;
+color:lightblue;
+}
+h3{
+  color: lightblue;
+}
+#portrait{
+  width: 20%;
+  display: inline;
+  float: left;
+  margin:.5%;
+}
+table{
+  text-align: center;
+  display: inline;
+  float: right;
+  margin:.5%;
+  width:75%;
+}
+th{
+  border-style: solid;
+  background:blue;
+}
+td{
+  border-style: solid;
+  background: lightblue;
+  padding:3px;
+}
+.food{
+  display: inline-block;
+  margin-left: 20px;
+  padding-left: 0px;
+  clear: both;
+  float: left;
+}
+li{
+  align-items: left;
+  text-align: left;
+  color:lightblue;
+  margin:0px;
+  padding:0px;
+}
+.contain{
+  display: flex;
+  flex-wrap: nowrap;
+  width:75%;
+  position:relative;
+  bottom:0;
+  float: right;
+}
+.book{
+  color: lightblue;
+  display: inline-block;
+  width: 15%
+  vertical-align: top;
+  margin:5px;
+}
+.bookpic{
+  height: 100px;
+}
+.images img{
+  height:200px;
+}
+.images{
+  display: inline-block;
+  font-size: 20pt;
+  color: lightblue;
+}
+.imagesbig{
+  display: block;
+  text-align: center;
+
+}
+#table{
+  display: table;
+  font-size: 20pt;
+  color: lightblue;
+}
+#row{
+  display: table-row;
+}
+#item{
+  display: table-cell;
+  padding:3px;
+}
+#item img{
+  height:150px;
+}
+footer{
+  height:20px;
+  color: lightblue;
+  background:grey;
+  position: fixed;
+  bottom: 10px;
+}
+footer a{
+  color:inherit;
+}

@@ -1,0 +1,29 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: navy;
+  }
+
+section {
+    text-align: center;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+
+    border:4px;
+    cursor: pointer;
+    border-style: dotted;
+    border-collapse: collapse;
+    border-color: white;
+    line-height: 100px;
+    font-size: 60px;
+}

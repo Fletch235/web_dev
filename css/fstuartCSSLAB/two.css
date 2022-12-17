@@ -1,0 +1,29 @@
+/* CSS file for Problem 2*/
+body{
+  background: lightblue;
+  margin:0px;
+}
+h1{
+  color:blue;
+  background: white;
+  margin:0px;
+  text-align: center;
+  padding:2%;
+}
+div{
+  margin:auto;
+  min-width: 450px;
+  width:50%;
+  text-align: center;
+  background: red;
+  font-size:16pt;
+  border-style:solid;
+  border-color: blue;
+  border-width: 10px;
+  padding:1%;
+}
+img{
+  border-style:dotted;
+  border-color: blue;
+  border-width: 5px;
+}

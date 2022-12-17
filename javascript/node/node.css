@@ -1,0 +1,13 @@
+/*Author: Morrison*/
+h1, h2, .display
+{
+    text-align:center;
+}
+button
+{
+    border:solid 1px black;
+    background-color: inherit;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-variant:small-caps;
+}

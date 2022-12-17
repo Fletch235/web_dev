@@ -1,0 +1,48 @@
+<!doctype HTML>
+<html lang="en">
+<head>
+   <title>Calculator</title>
+   <script type="text/javascript" src="calculator.js"></script>
+   <link rel="stylesheet" href="calculator.css"/>
+   <meta charset="utf-8"/>
+</head>
+
+<body>
+   <h3>Create functions in JavaScript to calculate the following:</h3>
+   <h4> <span id= "highlight">The blue buttons are extra credit</span></h2>
+    <p>Please input an integer from 1 to 100</p>
+   <p>Input Value: <input type="text" id="inputValue"/></p>
+   <p>Your answer: <span id="answer">Your answer will appear here</span></p>
+
+   <table>
+          <tr>
+       <td class="align"><button onclick="calcSum();">Sum</button></td>
+       <td>Calculate the sum of integers from 1 to the input value.</td>
+     </tr>
+     <tr>
+       <td class="align"><button onclick="calcTopProduct();">Product to 100</button></td>
+       <td>For positive integers less than 100, calculate the product of integers from the input value to 100. Check to see if input is greater than 0 and less than 100 using an if statement.</td>
+     </tr>
+
+     <tr>
+       <td class="align"><button onclick="asciiSquare();">Square of Asterisks</button></td>
+       <td>Using the string function "repeat", create a solid square of asterisks the size of the input number. Hint: you will create a string for each row and add a &lt;br&gt; tag at the end of each row. You will need to replace innerHTML and not textContent.</td>
+     </tr>
+     <tr>
+       <td class="align"><button onclick="asciiTriangle();">Triangle of Asterisks</button></td>
+       <td>Using the string function "repeat", create a solid triangle of asterisks (one on row one, two on row two, ...) the height of the input number. Hint: you will create a string for each row and add a &lt;br&gt; tag at the end of each row.</td>
+     </tr>
+     <tr>
+       <td class="align"><button class = "extra" onclick="howManyTimes();">Random Calls to Exceed</button></td>
+       <td>Using the Math.random() function to generate random numbers between 1 and 100, report how many times the function needed to be called before a value above the input number was generated.</td>
+     </tr>
+     <tr>
+   <td class="align"><button class = "extra" onclick="calcPi();">pi estimate</button></td>
+   <td>pi can be approximated with a series: pi = 4 (1/1 - 1/3 + 1/5 - 1/7 ...). Note the sign alternates and the denominator is 2n-1. Calculate pi using the number of terms specified in the input value.
+   </td>
+ </tr>
+   </table>
+   <p>If time, add more of your own!</p>
+
+</body>
+</html>

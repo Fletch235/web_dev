@@ -1,0 +1,134 @@
+body{
+  background:#b22323;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+h1{
+  text-align: center;
+
+}
+img{
+  width:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul,ol{
+  list-style: none;
+}
+footer{
+  text-align: center;
+  background: #018124;
+  padding:1%;
+
+}
+
+
+.main{
+  background: darkkhaki;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  min-width:300px;
+  max-width:600px;
+  color:black;
+  font-size: 24pt;
+  border-style: solid;
+  border-width: 20px;
+  padding:2%;
+}
+.large{
+  font-size: 128pt;
+  margin:auto;
+}
+.saniTitle{
+  padding: 10;
+  font-size: 30pt;
+}
+.serifs{
+    font-family: "Arial", Arial, serif;
+}
+.grade{
+  width:20px;
+  font-family: cursive;
+}
+.sign{
+  background:white;
+  padding: 10px;
+  margin:20px;
+}
+
+.signature{
+  font-family: cursive;
+  margin: auto;
+  border-bottom: solid;
+
+}
+.Official{
+  margin:auto;
+}
+#sizes{
+  padding:0px;
+  width:15%;
+  height: 80%;
+  display:block;
+  position: absolute;
+}
+#sizes img{
+  width:75%;
+}
+.divTable{
+width:70%;
+margin: 0px;
+display: flex;
+flex-wrap: wrap;
+margin-left:22%;
+margin-bottom: 100px;
+padding:0px;
+}
+.divRow{
+width: 100%;
+margin: auto;
+padding:0px;
+background: green;
+display: flex;
+
+}
+.divItem{
+width:25%;
+border-style: solid;
+border-color: yellow;
+border-width: 5px;
+}
+.green{
+  font-style: bold;
+  background: green;
+
+}
+.red{
+  background: red;
+
+}
+.white{
+  background: white;
+  color:red;
+}
+.title{
+  font-weight:bold;
+}
+.no{
+  border-style: none;
+}
+.border{
+  border-style: solid;
+  border-color: yellow;
+  border-width: 5px;
+}
+.borderRight{
+  border-right:solid;
+  border-color: yellow;
+  border-width: 5px;
+}

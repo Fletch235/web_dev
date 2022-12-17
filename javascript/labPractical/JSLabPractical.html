@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="JSLabPractical.css">
+    <script src="JSLabPractical.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Lab Practical</title>
+    
+</head>
+<body>
+    <h1>JavaScript Lab Practical</h1>
+    <h4>For this lab practical, you are given HTML and CSS files.
+        You need to edit the JavaScript file to complete the given
+        tasks. You do not need to and should not edit the HTML or 
+        CSS files.
+    </h4>
+    <h2>Challenge One</h2>
+    <p>There are two input boxes. When two numbers are inputted
+        and the solve button is clicked, the first number raised to the 
+        power of the second number should be displayed below. Only positive
+        numbers for the power are allowed. If the input for the power is negative, 
+        there should be an alert "Please input positive value for power" and
+        the answer should be blank. If the answer is greater than 0, then 
+        the answer shoud be in blue text and if the answer is less than or equal to zero,
+        then the text for the answer should be green.
+    </p>
+    <p>Input Number: <input type="text" id="inputNumber"/></p>
+    <p>Input Power: <input type="text" id="inputPower"/></p>
+    <p><button onclick="raiseToPower();"> Solve </button></p>
+    <p>The input number raised to the input power is: <span id="answerPower"></span></p>
+
+    <h2>Challenge Two</h2>
+    <p>When the button below is clicked, a random integer from 100 to 200 
+        is generated and then the sum of all integers from 1 to that
+        integer is calculated. The random number generated and the sum
+        are displayed below. Please use a loop to calculate the sum.
+    </p>
+    <p><button onclick="randomNumber();">Generate Random Number </button></p>
+    <p>The sum of the integers from 1 to <span id="randoNumber">(put random number here)</span> 
+        is <span id="sum"> (put answer here)</span>. </p>
+
+    <h2>Challenge Three</h2>
+    <p>When you click in the box below, all the h1 and h2 headings will
+        turn red. If you doubleclick in the box, all the h1 and h2 headings
+        turn blue.
+    </p>
+    <div id="headingBox"></div>
+    <h2>Challenge Four</h2>
+    <p>You are given an array of animals: ["dog", "cat", "rabbit","giraffe", "bear","elephant"].
+        Create the code so that when you click on the button below, it will add 
+        whichever animal is selected from drop-down menu either to the front or
+        the back of the array (depending on which is selected from drop-down
+        menu) and then display the new list of animals below.
+    </p>
+    <p>Select front or back of array: <select id="arrayLocation">
+        <option value = "1">Front</option>
+        <option value = "2">Back</option></select></p>
+    <p>Select an animal: <select id ="animal">  
+        <option value = "ostrich">ostrich</option>
+        <option value = "walrus">walrus</option>
+        <option value = "tiger">tiger</option>
+        <option value = "penguin">penguin</option>
+        <option value = "cheetah">cheetah</option>
+        <option value = "zebra">zebra</option>
+        <option value = "lion">lion</option>
+        <option value = "snake">snake</option></select></p>
+      <p><button onclick="addToArray();"> Add Animal to Array </button></p>
+      <p>New list of animals is: <span id= "animalList"></span></span></p>
+
+        
+
+</body>
+</html>

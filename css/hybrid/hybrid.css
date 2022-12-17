@@ -1,0 +1,59 @@
+body{
+  background: lightblue;
+  margin:0px;
+}
+div div{
+  border-style: solid;
+  border-width: 1px;
+}
+
+h1{
+  background: blue;
+  color: lightblue;
+  text-align: center;
+  margin:0px;
+  padding-top:1%;
+  padding-bottom: 1%;
+}
+.inlineBlock{
+  width:25%;
+  background:blue;
+  display: inline-block;
+
+}
+.Block{
+  width:25%;
+  background:red;
+  display: block;
+  float: left;
+  height:250px;
+  margin:3px;
+}
+.Block p{
+  color:lightblue;
+  margin: 12%;
+}
+li:hover{
+  font-weight: bold;
+}
+.container{
+  width:100%;
+  text-align:center;
+  padding:0px;
+  margin:1%;
+}
+.containerB{
+  width:100%;
+  text-align:center;
+  padding-left:12%;
+  margin:1%;
+}
+div p{
+  color: yellow;
+  font-size: 18pt;
+  text-align: center;
+  padding:none;
+}
+ol{
+  list-style-type:lower-roman ;
+}

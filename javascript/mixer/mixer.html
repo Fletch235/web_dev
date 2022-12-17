@@ -1,0 +1,23 @@
+<!doctype HTML>
+<html lang="en">
+<head>
+   <title>JavaScript Example 1</title>
+   <script type="text/javascript" src="mixer.js"></script>
+   <link rel="stylesheet" href="mixer.css"></link>
+
+   <meta charset="utf-8"/>
+</head>
+
+<body>
+  <h1>Color Mixing Exercise</h1>
+  <p>Type a number from 0 - 255 in each box.</p>
+  <p>Red: <input type="text" value="0" id="red"/></p>
+  <p>Green: <input type="text" value="0" id="green"/></p>
+  <p>Blue: <input type="text" value="0" id="blue"/></p>
+  <div>
+    <button name="mix" onclick="mix();">Mix!</button>
+    <div id="color"></div>
+    <p>Hex Code: <span id="hex"></span></p>
+  </div>
+</body>
+</html>

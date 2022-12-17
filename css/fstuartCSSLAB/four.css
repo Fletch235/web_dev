@@ -1,0 +1,39 @@
+/* CSS file for Problem 4*/
+body{
+  background: #FFFEE0;
+  margin:0px;
+}
+h1{
+  color:white;
+  background: blue;
+  margin:0px;
+  text-align: center;
+  padding:2%;
+}
+h2{
+  text-align: center;
+}
+.container{
+  display: block;
+  width:100%;
+  text-align: center;
+}
+.blockhead{
+  display: inline-block;
+  width:15%;
+  background: red;
+  border-style:solid;
+  border-color: blue;
+  text-align:center;
+  height:400px;
+  vertical-align: top;
+  color:white;
+}
+img{
+  width:80%;
+}
+.fav:hover{
+  background: gold;
+  color:blue;
+
+}

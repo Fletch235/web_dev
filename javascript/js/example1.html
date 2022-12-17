@@ -1,0 +1,39 @@
+<!doctype HTML>
+<html lang="en">
+<head>
+   <title>JavaScript Example 1</title>
+   <script type="text/javascript" src="example1.js"></script>
+   <link rel="stylesheet" href="example1.css"/>
+   <meta charset="utf-8"/>
+</head>
+
+<body>
+   <h3>Some Practice With JavaScript</h3>
+
+   <h4>Replace text in a paragraph that has an id.</h4>
+   <p id="myTarget" onclick="changeColor();">This is some text.</p>
+
+   <p><button onclick="changeColor();">Change Text Color</button></p>
+
+   <p><button onclick="changeText();">Replace the text</button></p>
+
+   <h4>Use the existing text and add to it (in this case, doubling it)</h4>
+   <p id="gonnaGrow">Ho Ho </p>
+
+   <p><button onclick="doubleMe();">Double the text</button></p>
+
+   <h4>Change other properties</h4>
+   <p><img src="obiwan.jpg" alt="Inneresting" id="pageImage1"/></p>
+
+   <p><button onclick="changePicture1();">Change the picture.</button>
+      <button onclick="changePicture2();">Change the picture back.</button>
+      <button onclick="togglePicture();">Toggle the picture</button></p>
+
+   <h4>Two parts of a webpage interacting</h4>
+   <p>What is your number?: <input type="text" id="inputNumber"/></p>
+   <p id="answer">There is no answer yet.</p>
+
+   <p><button onclick="mulitplyBy2();">Multiply by 2</button></p>
+
+</body>
+</html>

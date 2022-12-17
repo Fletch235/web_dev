@@ -1,0 +1,103 @@
+.divone{
+
+}
+text{}
+body{
+  color: white;
+  background-color: #16202C;
+}
+.float-parent-element {
+    width: 50%;
+}
+.float-child-element {
+    float: left;
+    width: 50%;
+}
+.h1{
+  text-align: center;
+  color: #ED3833;
+  background-color: #3E96EE;
+  border-style: solid;
+  border-color: #F3F14E;
+  border-width: thick;
+  margin-left: 35%;
+  margin-right: 35%;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+.h2 {
+  text-align: center;
+  color: white;
+  background-color: grey;
+  border-style: solid;
+  border-color: #ED3833;
+  border-width: thick;
+  margin-left: 5pt;
+margin-right: 500pt;
+
+  font-family: sans-serif;
+
+}
+.three{
+
+    text-align: center;
+    color: white;
+    background-color: grey;
+    border-style: solid;
+    border-color: #ED3833;
+    border-width: thick;
+    margin-left: 300pt;
+
+    font-family: sans-serif;
+
+
+}
+table{
+  margin-left: auto;
+   margin-right: auto;
+   font-family: sans-serif;
+   width: 500px;
+}
+tr{
+  color: #ED3833;
+  width: 40%;
+  padding: 20px;
+  margin: 20px;
+}
+td{
+  color: grey;
+  padding: 10px;
+}
+.blue{
+  color: #3E96EE;
+}
+
+footer{
+  background-color: #63D336;
+  padding:1%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.games{
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto;
+  margin-top: 50pt;
+}
+.allgames{
+  display: inline-block;
+  text-align: center;
+}
+#g1{
+  float: left;
+  margin-left: 11%;
+  width: 22%;
+}
+#game2{
+  float: right;
+  margin-right: 19%;
+  width: 38%;
+}

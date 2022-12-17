@@ -1,0 +1,22 @@
+table{
+  border-collapse: collapse;
+}
+
+td
+{
+  padding:1em;
+  border:1px black solid;
+}
+.align
+{
+text-align: center;
+}
+.extra
+{
+background-color: lightblue;
+}
+#highlight
+{
+  background-color: lightblue;
+  padding: .3em;
+}

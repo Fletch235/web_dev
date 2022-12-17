@@ -1,0 +1,34 @@
+<!doctype HTML>
+<html lang="en">
+<head>
+   <title>Body Mass Index Calculator</title>
+   <script type="text/javascript" src="BMI.js"></script>
+   <link rel="stylesheet" href="BMI.css"/>
+   <meta charset="utf-8"/>
+</head>
+
+<body>
+   <h3>Calculate a Body Mass Index (BMI)</h3>
+
+   <p>BMI is a person’s weight in kilograms divided by the square of height in meters. BMI does not measure body fat directly, but research has shown that BMI is moderately correlated with more direct measures of body fat obtained from skinfold thickness measurements, bioelectrical impedance, densitometry (underwater weighing), dual energy x-ray absorptiometry (DXA) and other methods. Furthermore, BMI appears to be as strongly correlated with various metabolic and disease outcome as are these more direct measures of body fatness. In general, BMI is an inexpensive and easy-to-perform method of screening for weight category, for example underweight, normal or healthy weight, overweight, and obesity.</p>
+
+   <p>BMI can be used as a screening tool but is not diagnostic of the body fatness or health of an individual. To determine if a high BMI is a health risk, a healthcare provider would need to perform further assessments. These assessments might include skinfold thickness measurements, evaluations of diet, physical activity, family history, and other appropriate health screenings.</p>
+
+   <h4>BMI Calculation</h4>
+   <p>Weight in Kilograms: <input type="text" value="50" id="inputWeight"/></p>
+   <p>Height in meters: <input type="text" value="1.8" id="inputHeight"/></p>
+
+   <p><button onclick="calcBMI();">Calculate BMI</button></p>
+
+   <p id="calculatedBMI">Your answer will appear here</p>
+
+   <p id="healthMessage">Health message based on BMI</p>
+
+
+   <p>Pounds to Kilograms: <input type="text" value="150" id="inputWeightConvert"/></p>
+   <p>feet to meters: <input type="text" value="5.9" id="inputHeightConvert"/></p>
+   <button onclick="convert();">Convert Values</button>
+   <p id="convertedWeight">Weight in Meters</p>
+   <p id="convertedHeight">Height in Meters</p>
+</body>
+</html>

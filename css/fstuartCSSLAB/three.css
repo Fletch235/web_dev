@@ -1,0 +1,39 @@
+/* CSS file for Problem 3*/
+body{
+  background: #FFFEE0;
+}
+h2{
+  text-align: center;
+}
+table{
+
+  background: black;
+  margin:auto;
+}
+tr{
+  border-style: solid;
+  border-color: black;
+
+}
+th{
+  background: #800000;
+  color:white;
+  padding:2px;
+}
+td{
+  background: #F0E886;
+  padding:2px;
+}
+span{
+  text-decoration: underline;
+}
+.th2{
+  background: green;
+  color:lightgreen;
+  padding:4px;
+}
+.td2{
+  background: lightgreen;
+  color:green;
+  padding:4px;
+}

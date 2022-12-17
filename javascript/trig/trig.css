@@ -1,0 +1,33 @@
+body{
+  background: #CCCCFF;
+}
+h1{
+  text-align: center;
+}
+
+table{
+  text-align: center;
+  margin:auto;
+  padding: 0px;
+  background:darkblue;
+  
+}
+tr{
+  width:250px;
+  padding:0px;
+}
+th{
+  color:lightblue;
+  width:25%;
+  padding:10px;
+  margin:0px;
+}
+td{
+  background: #CCCCFF;
+  width:25%;
+  padding:10px;
+  margin:0px;
+}
+#tab{
+  text-align: center;
+}

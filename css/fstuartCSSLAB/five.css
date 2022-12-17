@@ -1,0 +1,50 @@
+/* CSS file for Problem 5*/
+body{
+  background: #9ACD32;
+
+}
+h1{
+  text-align: center;
+  background: white;
+  width: 40%;
+  margin:auto;
+  border-style: dotted;
+  border-color: red;
+  border-width: 5px;
+}
+span{
+  text-decoration: underline;
+}
+.frame{
+  display: block;
+  width: 60%;
+  border-style: solid;
+  border-color: #8D0000;
+  border-width: medium;
+  margin:auto;
+  text-align: center;
+  padding:0px;
+}
+.row{
+  padding:0px;
+  margin:0px;
+  display: flex;
+  flex-wrap: nowrap;
+  height:auto;
+}
+.cell{
+  width:33%;
+  background: purple;
+  border-style: solid;
+  border-color: #8D0000;
+  border-width: medium;
+  display: inline-block;
+  vertical-align: top;
+}
+img{
+  width: 80%;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
